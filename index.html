@@ -79,7 +79,7 @@
         <button
                 class="button large expanded"
                 href="https://tgs.celeryshop.com/checkout?product_id=559c711099d87e030025424e">
-            Order Now - $39
+            Order Now - $39.99
         </button>
         <button class="button large expanded show-for-small-only" data-celery="559c711099d87e030025424e">
             Order Now - $39.99
@@ -389,3 +389,12 @@
 
 </body>
 </html>
+
+curl https://api.intercom.io/users \
+-X POST \
+-u m3eq92kh:6d83180bc278f7115426a8605b83e925c6e84627 \
+-H 'Accept: application/json' \
+-H 'Content-Type: application/json' -d '
+{
+"email": "hello@projectmap.io"
+}'
